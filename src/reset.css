@@ -1,6 +1,21 @@
-body {
+* * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Roboto;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
 }
 
 /*# sourceMappingURL=reset.css.map */

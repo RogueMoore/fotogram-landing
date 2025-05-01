@@ -1,3 +1,32 @@
-
+.header {
+  background-image: url(./images/header-image.png);
+  background-repeat: no-repeat;
+  height: 912px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.header__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+  height: 85px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+}
+.header__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header__logo-container {
+  gap: 6px;
+}
+.header__burger-container {
+  gap: 15px;
+}
 
 /*# sourceMappingURL=header.css.map */

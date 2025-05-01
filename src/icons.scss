@@ -1,0 +1,14 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
+  vertical-align: middle;
+
+  &--logo {
+    gap: 6px;
+  }
+
+  &--burger {
+    gap: 15px;
+  }
+}
