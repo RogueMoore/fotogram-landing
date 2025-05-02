@@ -1,0 +1,60 @@
+@use "./variables";
+
+.mission {
+  &__box-section {
+    display: flex;
+    gap: 90px;
+  }
+
+  //   &__content {
+  //     display: inline-flex;
+  //     flex-direction: column;
+  //     justify-content: flex-start;
+  //   }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 13px;
+    color: variables.$secondary-color;
+    font-family: "Space Grotesk";
+    line-height: 15px;
+  }
+
+  &__lead {
+    margin: 10px 0 0 0;
+
+    font-size: 38px;
+    font-weight: 700;
+    width: 638px;
+    line-height: 47px;
+  }
+
+  &__text {
+    margin: 0 0 30px 0;
+
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+
+    color: variables.$font-color-secondary-light;
+
+    width: 377px;
+  }
+
+  &__button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+
+    color: variables.$secondary-color;
+
+    font-family: "poppins";
+  }
+}

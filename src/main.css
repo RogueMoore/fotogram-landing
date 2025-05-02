@@ -9,13 +9,26 @@ body {
   font-family: Roboto;
   font-size: 100%;
   line-height: 1.5;
-  color: #fff;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   display: block;
+  width: max-content;
+}
+
+.ui-line {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+.ui-line__border {
+  width: 80px;
+  height: 1px;
+  background-color: #6c5ccc;
+  pointer-events: none;
+  margin: 0 10px 0 0;
 }
 
 .header {
@@ -23,7 +36,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 912px;
+  height: 100vh;
   width: 100vw;
   margin: 0 auto;
   padding: 0 auto;
@@ -52,6 +65,12 @@ a {
   gap: 15px;
 }
 
+.container {
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
 .icon {
   display: flex;
   flex-direction: row;
@@ -68,6 +87,7 @@ a {
 .hero {
   position: relative;
   width: 100%;
+  color: #ffffff;
 }
 .hero__title {
   position: relative;
@@ -136,6 +156,46 @@ a {
   width: 80px;
   height: 1px;
   background-color: #6c5ccc;
+}
+
+.mission__box-section {
+  display: flex;
+  gap: 90px;
+}
+.mission__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mission__title {
+  font-size: 13px;
+  color: #6c5ccc;
+  font-family: "Space Grotesk";
+  line-height: 15px;
+}
+.mission__lead {
+  margin: 10px 0 0 0;
+  font-size: 38px;
+  font-weight: 700;
+  width: 638px;
+  line-height: 47px;
+}
+.mission__text {
+  margin: 0 0 30px 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #7a7a7a;
+  width: 377px;
+}
+.mission__button {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #6c5ccc;
+  font-family: "poppins";
 }
 
 /*# sourceMappingURL=main.css.map */
