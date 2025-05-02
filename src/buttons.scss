@@ -1,0 +1,22 @@
+.button__hero-slide {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: 0;
+  color: inherit;
+
+  cursor: pointer;
+
+  &--left {
+    position: absolute;
+
+    top: 100px;
+    left: 62px;
+  }
+  &--right {
+    position: absolute;
+
+    top: 100px;
+    right: 62px;
+  }
+}
