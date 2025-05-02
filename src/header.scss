@@ -1,8 +1,11 @@
 .header {
   background-image: url(./images/header-image.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   height: 912px;
-  max-width: 1440px;
+  width: 100vw;
 
   margin: 0 auto;
   padding: 0 auto;
@@ -14,7 +17,7 @@
 
     padding: 0 40px 0 40px;
     margin: 0 0 200px 0;
-    
+
     height: 85px;
 
     font-family: "Space Grotesk", sans-serif;
