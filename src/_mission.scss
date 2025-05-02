@@ -21,13 +21,12 @@
   &__title {
     font-size: 13px;
     color: variables.$secondary-color;
-    font-family: "Space Grotesk";
     line-height: 15px;
   }
 
   &__lead {
     margin: 10px 0 0 0;
-
+    font-family: "Space Grotesk";
     font-size: 38px;
     font-weight: 700;
     width: 638px;
