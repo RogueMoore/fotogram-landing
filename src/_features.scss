@@ -1,0 +1,48 @@
+@use "./variables";
+
+.features {
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+  &__list {
+    display: block;
+    width: 353px;
+
+    &:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+  }
+
+  &__item {
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 0 30px 0;
+  }
+
+  &__title {
+    margin: 0 0 20px 0;
+
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    font-weight: 700;
+
+    line-height: 32px;
+  }
+
+  &__text {
+    width: 276px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: variables.$font-color-secondary-light;
+  }
+}
