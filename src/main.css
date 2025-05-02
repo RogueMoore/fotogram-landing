@@ -41,7 +41,7 @@ li {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -233,6 +233,36 @@ li {
   font-size: 15px;
   line-height: 22px;
   color: #7a7a7a;
+}
+
+.ideology {
+  background-image: url(./images/section-ideology.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 333px;
+  width: 100%;
+}
+.ideology__title {
+  margin: 0 170px 10px 0;
+  color: #6c5ccc;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.2em;
+}
+.ideology__text {
+  margin: 0 170px 0 0;
+  color: #ffffff;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 47px;
 }
 
 /*# sourceMappingURL=main.css.map */
