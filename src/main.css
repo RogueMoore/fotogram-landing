@@ -22,6 +22,20 @@ li {
   list-style: none;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+}
+.grid--1-6 {
+  grid-column: 1/span 8;
+}
+.grid--7-13 {
+  grid-column: 9/span 16;
+}
+.grid--14-24 {
+  grid-column: 25/span 8;
+}
+
 .ui-line {
   display: inline-flex;
   align-items: center;
@@ -102,7 +116,7 @@ li {
 }
 .hero__transparent-text {
   color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 1px #f8f9fa;
 }
 .hero__subtitle {
   position: relative;
@@ -119,7 +133,7 @@ li {
   transform: translateY(-50%);
   width: 80px;
   height: 1px;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .button__hero-slide {
@@ -258,7 +272,7 @@ li {
 }
 .ideology__text {
   margin: 0 170px 0 0;
-  color: #ffffff;
+  color: #f8f9fa;
   font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 38px;
@@ -277,6 +291,35 @@ li {
   font-weight: 700;
   font-size: 30px;
   font-family: "Space Grotesk";
+}
+
+.photobook__item--text {
+  position: relative;
+}
+.photobook__image {
+  width: 100%;
+  height: 547px;
+}
+.photobook__title {
+  margin: 0 0 10px 0;
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #f8f9fa;
+  letter-spacing: 0.13em;
+}
+.photobook__subtitle {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 31px;
+  color: #f8f9fa;
+}
+.photobook__textbox {
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
