@@ -26,13 +26,13 @@ li {
   display: grid;
   grid-template-columns: repeat(32, 1fr);
 }
-.grid--1-6 {
+.grid--1-9 {
   grid-column: 1/span 8;
 }
-.grid--7-13 {
+.grid--9-24 {
   grid-column: 9/span 16;
 }
-.grid--14-24 {
+.grid--25-32 {
   grid-column: 25/span 8;
 }
 
