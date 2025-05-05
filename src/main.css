@@ -265,4 +265,18 @@ li {
   line-height: 47px;
 }
 
+.edition__title {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.13em;
+  color: #6c5ccc;
+  font-family: "Space Grotesk";
+}
+.edition__subtitle {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Space Grotesk";
+}
+
 /*# sourceMappingURL=main.css.map */

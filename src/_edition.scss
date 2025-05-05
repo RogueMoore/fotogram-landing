@@ -1,0 +1,21 @@
+@use "./variables";
+
+.edition {
+  &__title {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+
+    color: variables.$secondary-color;
+
+    font-family: "Space Grotesk";
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Space Grotesk";
+    
+  }
+}
