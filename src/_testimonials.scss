@@ -1,0 +1,104 @@
+@use "./variables";
+
+.testimonials {
+  width: 100%;
+
+  &__content {
+    display: flex;
+  }
+
+  &__button-swipe {
+    background-color: transparent;
+  }
+  &__box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background: rgba(237, 234, 234, 0.6);
+    width: 100%;
+    height: 493px;
+  }
+
+  &__profile {
+    margin: 0 0 0 120px;
+
+    width: 170px;
+    text-align: center;
+  }
+
+  &__profile-top {
+    margin: 0 0 30px 0;
+    display: flex;
+    gap: 10px;
+  }
+
+  &__review {
+    margin: 0 40px 0 0;
+
+    width: 729px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  &__box-2 {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 493px;
+    width: 483vw;
+    max-width: 483px;
+
+    background: linear-gradient(152.07deg, #2e2e2e 8.37%, #000000 87.4%);
+  }
+
+  &__icon-swipe {
+    display: block;
+    height: 30px;
+    width: 30px;
+  }
+
+  &__name {
+    margin: 0 0 10px 0;
+
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  &__metier {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+
+    color: #ffffff;
+  }
+
+  &__title {
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    align-items: end;
+    transform: rotate(-90deg);
+    height: fit-content;
+
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1.2px;
+
+    color: variables.$font-color-secondary-light;
+  }
+}
