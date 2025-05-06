@@ -26,7 +26,7 @@ li {
   display: grid;
   grid-template-columns: repeat(32, 1fr);
 }
-.grid--1-9 {
+.grid--1-8 {
   grid-column: 1/span 8;
 }
 .grid--9-24 {

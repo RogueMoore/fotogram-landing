@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(32, 1fr);
 
-  &--1-9 {
+  &--1-8 {
     grid-column: 1 / span 8;
   }
 
