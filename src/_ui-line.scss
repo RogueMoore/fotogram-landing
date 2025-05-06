@@ -1,16 +1,23 @@
 @use "./variables";
 
 .ui-line {
-    display: inline-flex;
-    align-items: center;
-    flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
 
-    &__border {
-        width: 80px;
-        height: 1px;
-        background-color: variables.$secondary-color;
-        pointer-events: none;
-        margin: 0 10px 0 0;
-    }
+  &__border {
+    width: 80px;
+    height: 1px;
+    background-color: variables.$secondary-color;
+    pointer-events: none;
+    margin: 0 10px 0 0;
+  }
 
+  &__title {
+    font-size: 13px;
+    color: variables.$secondary-color;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+  }
 }

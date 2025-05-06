@@ -48,6 +48,13 @@ li {
   pointer-events: none;
   margin: 0 10px 0 0;
 }
+.ui-line__title {
+  font-size: 13px;
+  color: #6c5ccc;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+}
 
 .header {
   background-image: url(./images/header-image.png);
@@ -185,11 +192,6 @@ li {
   flex-direction: column;
   justify-content: center;
 }
-.mission__title {
-  font-size: 13px;
-  color: #6c5ccc;
-  line-height: 15px;
-}
 .mission__lead {
   margin: 10px 0 0 0;
   font-family: "Space Grotesk";
@@ -320,6 +322,58 @@ li {
   position: absolute;
   bottom: 60px;
   left: 50px;
+}
+
+.collections__subtitle {
+  margin: 10px 0 0 0;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 47px;
+}
+.collections__list {
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.collections__item {
+  background-color: #fafafa;
+  width: 344px;
+  height: 434px;
+}
+.collections__image {
+  margin: 0 0 40px 0;
+  display: block;
+}
+.collections__content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.collections__date {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #7a7a7a;
+}
+.collections__title-card {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.collections__link {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.2px;
+  color: #7a7a7a;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
