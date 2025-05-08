@@ -1,0 +1,82 @@
+.partners {
+  &__subtitle {
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+  }
+
+  &__list {
+    margin: 120px 0 0 0;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 280px;
+    height: 257px;
+
+    border: 1px solid #e2e2e2;
+
+    &:nth-child(4n) {
+      border-right: none;
+    }
+
+    &:nth-last-child(-n + 4) {
+      border-bottom: none;
+    }
+
+    &:nth-child(4n + 1) {
+      border-left: none;
+    }
+
+    &:nth-child(-n + 4) {
+      border-top: none;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    width: auto;
+  }
+
+  &__icon {
+    &--1 {
+      width: 80px;
+      height: 79px;
+    }
+    &--2 {
+      width: 80px;
+      height: 55px;
+    }
+    &--3 {
+      width: 129px;
+      height: 35px;
+    }
+    &--4 {
+      width: 80px;
+      height: 80px;
+    }
+    &--5 {
+      width: 130px;
+      height: 35px;
+    }
+    &--6 {
+      width: 128px;
+      height: 43px;
+    }
+    &--7 {
+      width: 129px;
+      height: 30px;
+    }
+    &--8 {
+      width: 120px;
+      height: 27px;
+    }
+  }
+}
