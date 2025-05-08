@@ -493,8 +493,10 @@ li {
   border-top: none;
 }
 .partners__link {
-  display: inline-block;
-  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
 }
 .partners__icon--1 {
   width: 80px;

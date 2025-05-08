@@ -41,8 +41,10 @@
   }
 
   &__link {
-    display: inline-block;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
   }
 
   &__icon {
