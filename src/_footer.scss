@@ -1,0 +1,105 @@
+@use "./variables";
+
+.footer {
+  padding: 200px 0 88px 0;
+
+  background-color: variables.$primary-color;
+  height: 100vh;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 0 0 10px 0;
+
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+
+    color: variables.$secondary-color;
+  }
+
+  &__subtitle {
+    margin: 0 0 10px 0;
+
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: -0.02em;
+  }
+
+  &__subtitle-part {
+    color: #ffffff;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: variables.$font-color-secondary-light;
+  }
+
+  &__address {
+    width: fit-content;
+  }
+
+  &__address-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+
+    color: variables.$font-color-secondary-light;
+  }
+
+  &__copyright {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+
+    color: variables.$font-color-secondary-light;
+  }
+
+  &__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 24px;
+    gap: 10px;
+
+    border: 1px solid variables.$secondary-color;
+    border-radius: 30px;
+    background-color: transparent;
+
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}

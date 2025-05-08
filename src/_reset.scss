@@ -20,9 +20,13 @@ a {
 
   display: block;
 
-  width: max-content;
+  width: fit-content;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  width: fit-content;
 }
