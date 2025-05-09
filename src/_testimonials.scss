@@ -21,10 +21,13 @@
   }
 
   &__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 0 0 120px;
 
     width: 170px;
-    text-align: center;
   }
 
   &__profile-top {
