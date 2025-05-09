@@ -231,14 +231,11 @@ p {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .features__list {
   display: block;
   width: 353px;
-}
-.features__list:not(:last-child) {
-  margin: 0 10px 0 0;
 }
 .features__icon {
   display: block;
