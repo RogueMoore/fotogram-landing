@@ -6,6 +6,8 @@
   background-color: variables.$primary-color;
   height: 100vh;
 
+  font-family: variables.$secondary-font;
+
   &__box {
     display: flex;
     flex-direction: column;
@@ -21,7 +23,6 @@
   &__title {
     margin: 0 0 10px 0;
 
-    font-family: "Space Grotesk";
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
@@ -33,11 +34,12 @@
   &__subtitle {
     margin: 0 0 10px 0;
 
-    font-family: "Space Grotesk";
     font-weight: 700;
     font-size: 80px;
     line-height: 88px;
     letter-spacing: -0.02em;
+
+    font-family: variables.$main-font;
   }
 
   &__subtitle-part {
@@ -45,7 +47,6 @@
   }
 
   &__text {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 17px;
     line-height: 22px;
@@ -58,7 +59,6 @@
   }
 
   &__address-link {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
@@ -68,7 +68,6 @@
   }
 
   &__copyright {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
@@ -89,7 +88,6 @@
     border-radius: 30px;
     background-color: transparent;
 
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;

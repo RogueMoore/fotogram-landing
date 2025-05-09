@@ -11,6 +11,12 @@
   &__list {
     display: block;
     width: 353px;
+
+    padding: 0 40px 0 40px;
+  }
+
+  &__item {
+    width: fit-content;
   }
 
   &__icon {
@@ -21,7 +27,6 @@
   &__title {
     margin: 0 0 20px 0;
 
-    font-family: "Space Grotesk";
     font-size: 22px;
     font-weight: 700;
 
@@ -29,12 +34,12 @@
   }
 
   &__text {
-    width: 276px;
+    width: 262px;
 
-    font-family: inherit;
+    font-family: variables.$secondary-font;
     font-weight: 500;
-    font-size: 15px;
     line-height: 22px;
+    font-size: 15px;
 
     color: variables.$font-color-secondary-light;
   }

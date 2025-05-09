@@ -18,7 +18,7 @@
   &__title {
     margin: 0 170px 10px 0;
     color: variables.$secondary-color;
-    font-family: "Poppins";
+    font-family: variables.$rare-font;
     font-weight: 600;
     font-size: 13px;
     line-height: 25px;
@@ -29,7 +29,6 @@
     margin: 0 170px 0 0;
     color: variables.$light-color;
 
-    font-family: "Space Grotesk";
     font-weight: 700;
     font-size: 38px;
     line-height: 47px;

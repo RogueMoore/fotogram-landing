@@ -17,11 +17,6 @@
     font-family: "Space Grotesk", sans-serif;
   }
 
-  &__transparent-text {
-    color: transparent;
-    -webkit-text-stroke: 1px variables.$light-color;
-  }
-
   &__subtitle {
     position: relative;
     display: inline-block;

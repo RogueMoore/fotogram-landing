@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: Roboto;
+  font-family: "Space Grotesk", Roboto;
   font-size: 100%;
   line-height: 1.5;
 }
@@ -83,6 +83,11 @@ p {
   letter-spacing: 0.13em;
 }
 
+.transparent-title {
+  color: transparent;
+  -webkit-text-stroke: 1px #f8f9fa;
+}
+
 .header {
   background-image: url(./images/header-image.png);
   background-repeat: no-repeat;
@@ -149,10 +154,6 @@ p {
   font-size: 66px;
   font-family: "Space Grotesk", sans-serif;
 }
-.hero__transparent-text {
-  color: transparent;
-  -webkit-text-stroke: 1px #f8f9fa;
-}
 .hero__subtitle {
   position: relative;
   display: inline-block;
@@ -203,7 +204,6 @@ p {
 }
 .mission__lead {
   margin: 10px 0 0 0;
-  font-family: "Space Grotesk";
   font-size: 38px;
   font-weight: 700;
   width: 638px;
@@ -211,7 +211,7 @@ p {
 }
 .mission__text {
   margin: 0 0 30px 0;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -224,7 +224,7 @@ p {
   font-size: 12px;
   line-height: 17px;
   color: #6c5ccc;
-  font-family: "poppins";
+  font-family: Poppins, Roboto;
 }
 
 .features__content {
@@ -236,6 +236,10 @@ p {
 .features__list {
   display: block;
   width: 353px;
+  padding: 0 40px 0 40px;
+}
+.features__item {
+  width: fit-content;
 }
 .features__icon {
   display: block;
@@ -243,17 +247,16 @@ p {
 }
 .features__title {
   margin: 0 0 20px 0;
-  font-family: "Space Grotesk";
   font-size: 22px;
   font-weight: 700;
   line-height: 32px;
 }
 .features__text {
-  width: 276px;
-  font-family: inherit;
+  width: 262px;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-size: 15px;
   line-height: 22px;
+  font-size: 15px;
   color: #7a7a7a;
 }
 
@@ -272,7 +275,7 @@ p {
 .ideology__title {
   margin: 0 170px 10px 0;
   color: #6c5ccc;
-  font-family: "Poppins";
+  font-family: Poppins, Roboto;
   font-weight: 600;
   font-size: 13px;
   line-height: 25px;
@@ -281,27 +284,12 @@ p {
 .ideology__text {
   margin: 0 170px 0 0;
   color: #f8f9fa;
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 38px;
   line-height: 47px;
 }
 
-.edition__title {
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 15px;
-  letter-spacing: 0.13em;
-  color: #6c5ccc;
-  font-family: "Space Grotesk";
-}
-.edition__subtitle {
-  font-weight: 700;
-  font-size: 30px;
-  font-family: "Space Grotesk";
-}
-
-.photobook__item--text {
+.photobook__item-text {
   position: relative;
 }
 .photobook__image {
@@ -309,16 +297,26 @@ p {
   height: 547px;
 }
 .photobook__title {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.13em;
+  color: #6c5ccc;
+}
+.photobook__subtitle {
+  margin: 0 0 100px 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+.photobook__secondary-title {
   margin: 0 0 10px 0;
-  font-family: "Space Grotesk";
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
   color: #f8f9fa;
   letter-spacing: 0.13em;
 }
-.photobook__subtitle {
-  font-family: "Space Grotesk";
+.photobook__secondary-subtitle {
   font-weight: 700;
   font-size: 28px;
   line-height: 31px;
@@ -332,7 +330,6 @@ p {
 
 .collections__subtitle {
   margin: 10px 0 0 0;
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 38px;
   line-height: 47px;
@@ -359,14 +356,12 @@ p {
   align-items: center;
 }
 .collections__date {
-  font-family: "Space Grotesk";
   font-weight: 600;
   font-size: 12px;
   line-height: 24px;
   color: #7a7a7a;
 }
 .collections__title-card {
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
@@ -374,7 +369,7 @@ p {
   text-align: center;
 }
 .collections__link {
-  font-family: "Poppins";
+  font-family: Poppins, Roboto;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 1.2px;
@@ -415,7 +410,7 @@ p {
 .testimonials__review {
   margin: 0 40px 0 0;
   width: 729px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: italic;
   font-size: 24px;
   line-height: 26px;
@@ -437,14 +432,14 @@ p {
 }
 .testimonials__name {
   margin: 0 0 10px 0;
-  font-family: "Poppins";
+  font-family: Poppins, Roboto;
   font-weight: 600;
   font-size: 18px;
   line-height: 15px;
   color: #ffffff;
 }
 .testimonials__metier {
-  font-family: "Poppins";
+  font-family: Poppins, Roboto;
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
@@ -458,7 +453,6 @@ p {
   align-items: end;
   transform: rotate(-90deg);
   height: fit-content;
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
@@ -468,7 +462,6 @@ p {
 
 .partners__subtitle {
   margin: 10px 0 0 0;
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 38px;
   line-height: 47px;
@@ -541,6 +534,7 @@ p {
   padding: 200px 0 88px 0;
   background-color: #000000;
   height: 100vh;
+  font-family: Roboto, sans-serif;
 }
 .footer__box {
   display: flex;
@@ -555,7 +549,6 @@ p {
 }
 .footer__title {
   margin: 0 0 10px 0;
-  font-family: "Space Grotesk";
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
@@ -564,17 +557,16 @@ p {
 }
 .footer__subtitle {
   margin: 0 0 10px 0;
-  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 80px;
   line-height: 88px;
   letter-spacing: -0.02em;
+  font-family: "Space Grotesk", Roboto;
 }
 .footer__subtitle-part {
   color: #ffffff;
 }
 .footer__text {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
@@ -584,7 +576,6 @@ p {
   width: fit-content;
 }
 .footer__address-link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -592,7 +583,6 @@ p {
   color: #7a7a7a;
 }
 .footer__copyright {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -609,7 +599,6 @@ p {
   border: 1px solid #6c5ccc;
   border-radius: 30px;
   background-color: transparent;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;

@@ -40,7 +40,7 @@
     margin: 0 40px 0 0;
 
     width: 729px;
-    font-family: "Roboto";
+    font-family: variables.$secondary-font;
     font-style: italic;
     font-size: 24px;
     line-height: 26px;
@@ -69,7 +69,7 @@
   &__name {
     margin: 0 0 10px 0;
 
-    font-family: "Poppins";
+    font-family: variables.$rare-font;
     font-weight: 600;
     font-size: 18px;
     line-height: 15px;
@@ -78,7 +78,7 @@
   }
 
   &__metier {
-    font-family: "Poppins";
+    font-family: variables.$rare-font;
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -96,7 +96,6 @@
     transform: rotate(-90deg);
     height: fit-content;
 
-    font-family: "Space Grotesk";
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;

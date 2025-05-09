@@ -2,7 +2,7 @@
 
 .photobook {
   &__item {
-    &--text {
+    &-text {
       position: relative;
     }
   }
@@ -13,9 +13,24 @@
   }
 
   &__title {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+
+    color: variables.$secondary-color;
+  }
+
+  &__subtitle {
+    margin: 0 0 100px 0;
+
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  &__secondary-title {
     margin: 0 0 10px 0;
 
-    font-family: "Space Grotesk";
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
@@ -25,8 +40,7 @@
     letter-spacing: 0.13em;
   }
 
-  &__subtitle {
-    font-family: "Space Grotesk";
+  &__secondary-subtitle {
     font-weight: 700;
     font-size: 28px;
     line-height: 31px;

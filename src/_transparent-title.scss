@@ -1,0 +1,6 @@
+@use "./variables";
+
+.transparent-title {
+  color: transparent;
+  -webkit-text-stroke: 1px variables.$light-color;
+}
